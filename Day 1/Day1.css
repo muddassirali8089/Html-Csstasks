@@ -1,0 +1,86 @@
+#Header {
+
+   
+display: flex;
+    background-color: aqua;
+ justify-content: center; 
+align-items: center;
+    height: 8rem;
+    width: 100 rem;
+}
+
+
+#NavigationMenu{
+
+margin-top: 1rem;
+align-items: center;
+    background-color: aqua;
+   justify-content: center;
+display: flex;
+    height: 5rem;
+    width: 100 rem;
+
+    
+
+}
+
+#LeftSide {
+
+   
+
+    height: 20rem;
+    width: 14rem;
+    background-color: aqua;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+}
+
+#MainContent{
+
+    display: flex;
+    background-color: aqua;
+    margin: 1rem;
+    height: 20rem;
+    width: 60rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#RightSide{
+
+    display: flex;
+    background-color: aqua;
+margin-top: 1rem;
+height: 20rem;
+width: 14rem;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+.grid-container {
+   
+    display: flex;
+   
+  
+  }
+
+#Footer{
+
+    background-color: aqua;
+    height: 5rem;
+    width: 100 rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ 
