@@ -1,0 +1,1284 @@
+.container-fluid{
+   
+    background: white;
+    border-left: 4vw solid gray;
+    border-right: 4vw solid gray;
+   
+    
+   
+}
+
+
+
+.text0{
+
+    line-height: 34px;
+}
+
+#logo{
+
+    width: 100%;
+    height: 105%;
+    
+}
+
+h6 u {
+   
+     text-underline-position: under; 
+     font-size: 23px;
+   
+}
+#number{
+
+    font-size: 43px;
+    font-weight :bolder;
+}
+
+#paragraph{
+    font-size: 18px;
+    color: rgb(104, 100, 100);
+font-weight: bold;
+   
+}
+
+
+
+/* extra-small screen  */
+@media screen and (min-width:319px) and (max-width:575px){
+
+
+    .logo{
+        padding-right: 0px;
+    }
+
+    .text0{
+        
+        line-height: 4vw;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+         
+         }
+
+    h6 u {
+   
+        text-underline-position: under; 
+        font-size: 5vw;
+        
+   }
+
+   #number{
+padding-top: 1vw;
+    font-size: 9vw;
+    
+}
+    
+
+#paragraph{
+    font-size: 3.6vw;
+    color: rgb(27, 27, 27);
+    padding-left: 0px;
+}
+ }
+
+
+
+/* it will start from 576px  and end in 767*/
+/* small screen  */
+ @media screen and (min-width:576px) and (max-width:767px){
+
+
+    .logo{
+        padding-right: 0px;
+    }
+
+    .text0{
+        
+        line-height: 4.5vw;
+        
+         
+         }
+
+    h6 u {
+   
+        text-underline-position: under; 
+        font-size: 4vw;
+        
+   }
+
+   #number{
+padding-top: 1vw;
+    font-size: 7.2vw;
+    
+}
+    
+
+#paragraph{
+    font-size: 3vw;
+    color: rgb(27, 27, 27);
+    padding-left: 0px;
+}
+ }
+
+ /* it will start from 768px  and end in 991*/
+/* medium screen  */
+@media screen and (min-width:768px) and (max-width:991px){
+
+
+    .logo{
+        padding-right: 0px;
+    }
+
+    .text0{
+        
+        line-height: 3vw;
+        
+         
+         }
+
+    h6 u {
+   
+        text-underline-position: under; 
+        font-size: 2.7vw;
+        
+   }
+
+   #number{
+padding-top: 1.2vw;
+    font-size: 5vw;
+    
+}
+    
+
+#paragraph{
+    font-size: 2vw;
+    color: rgb(27, 27, 27);
+    padding-left: 0px;
+}
+ }
+/* navbar code */
+ 
+ .navbar{
+    
+    background-color: brown;
+    padding: 0;
+}  
+
+
+
+
+
+
+ul li a{
+  
+    font-weight: bold;
+   
+    color: white !important;
+    text-transform: uppercase;
+    }
+ 
+
+    ul li a:hover {
+        color: white;
+        background: gray;
+    } 
+
+    @media screen and (min-width:320px) and (max-width:767px){
+        .navbar-collapse {
+            display: flex;
+            
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            align-content: center;
+          
+        }
+    }
+
+ /* end of navbar code  */
+
+
+.banner{
+
+
+    height: 100%;
+    width: 100%;
+}
+
+.form_bg{
+
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.btnn{
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2vw;
+    background-color: brown;
+    color: white;
+}
+.text-1{
+    font-size: 1.5vw;
+    font-weight: bold;
+       
+
+}
+
+#question{
+    color: purple;
+    font-size: 2.2vw;
+    font-weight: bold;
+}
+#num{
+
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+#text-2{
+    
+    font-weight: 500;
+    font-size: 1.2vw;
+    padding-left: 2.7vw;
+    
+}
+
+.labal{
+    font-weight: bold;
+
+}
+.labal-1{
+font-weight: bold;
+font-size: 14px;
+}
+.formm{
+    display: flex;
+    justify-content: space-evenly ;
+    
+}
+.confidential{
+    transform: rotate(10deg);
+    margin-left: 8px;
+    
+}
+
+.textarea{
+    margin-top: 1vw;
+    margin-left: 3vw; 
+    font-weight: 500;
+    height: 60px;
+    background-color: white;
+    
+}
+
+
+    .last-text{
+    display: flex;
+    padding-top: 5px;
+    justify-content: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2vw;
+    color: rgb(145, 132, 132);
+    }
+
+.btn-2{
+    border: none;
+    background-color: brown;
+    color: white;
+    font-weight: 500;   
+    font-size: 1.7vw;
+   
+}
+
+
+
+
+
+
+@media screen and (min-width:319px) and (max-width:575px){
+
+.banner0{
+    padding-bottom: 1vw;
+    width: 100%;
+    padding-right: 0px;
+        padding-left: 0px;
+}
+
+/* it is img  */
+.form_bg{
+    padding: 0px !important;
+    width: 100%;
+    height: 100%;
+    margin-left: -15px;
+    
+}
+.pr-4 {
+    padding-right: 0 !important;
+}
+
+/* img is full responsive */
+
+
+
+.btnn{
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 3.2vw;
+    background-color: brown;
+    color: white;
+}
+
+
+
+.text-1{
+    font-size: 2.5vw;
+    font-weight: bold;
+}
+
+#question{
+    color: purple;
+    font-size: 3.2vw;
+    font-weight: bold;
+}
+/* first row is fully responsive */
+
+
+
+
+#text-2{
+    
+    font-weight: 500;
+    font-size: 3.2vw;
+   
+    
+}
+
+
+#num{
+
+    font-weight: bold;
+    font-size: 3.2vw;
+}
+
+/* second row is fully resposive */
+
+
+.formm{
+    display: block;
+    
+    
+    
+}
+.inpuut{
+    width: 32vw;
+    height: 5vh;
+}
+
+.labal{
+    font-weight: 500;
+    font-size: 2.7vw
+}
+.labal-1{
+font-weight: 600;
+font-size: 2.5vw;
+}
+
+
+.confidential{
+    width: 100%;
+    margin-left: -30px;
+}
+
+
+.textarea{
+    margin-top: 1vw;
+    margin-left: 3vw; 
+    font-size: 3vw;
+    height: 9vw;
+    width: 600px;
+    background-color: white;
+    
+}
+
+
+
+
+.last-text{
+    
+   padding-top: 1vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.7vw;
+    color: black;
+    padding: 0 !important;
+ 
+    }
+    #para{
+        margin-top: 10px;
+    }
+
+.btn-2{
+    border: none;
+    background-color: brown;
+    color: white;
+    font-weight: 500;   
+    font-size: 2.7vw;
+    height: 7vw;
+   
+    
+   
+   
+}
+
+
+#img-bullet{
+    
+    width: 1.5vw;
+    margin-top: -2px;
+    
+}
+
+}
+    
+
+@media screen and (min-width:576px) and (max-width:767px){
+
+    .banner0{
+        padding-bottom: 1vw;
+        width: 100%;
+       
+    }
+    
+    /* it is img  */
+    .form_bg{
+        
+        width: 99%;
+        height: 100%;
+       
+        
+    }
+   
+    
+    /* img is full responsive */
+    
+    
+    
+    .btnn{
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 3.2vw;
+        background-color: brown;
+        color: white;
+    }
+    
+    
+    
+    .text-1{
+        font-size: 2.5vw;
+        font-weight: bold;
+    }
+    
+    #question{
+        color: purple;
+        font-size: 3.2vw;
+        font-weight: bold;
+    }
+    /* first row is fully responsive */
+    
+    
+    
+    
+#text-2 {
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-right: 35px;
+    border: 2px solid green;
+}
+    
+    
+    #num{
+    
+        font-weight: bold;
+        font-size: 22px;
+    }
+    
+    /* second row is fully resposive */
+    
+    
+    .formm{
+        display: flex;
+        
+    }
+   
+    
+    
+    .confidential{
+        width: 70%;
+       
+    }
+    
+    
+    .textarea{
+        margin-top: 1vw;
+        margin-left: 40px; 
+        font-size: 3vw;
+        background-color: white;
+        
+    }
+    
+    .last-text{
+    
+        padding-top: 1vh;
+         font-family: 'Times New Roman', Times, serif;
+         font-size: 2.7vw;
+         color: black;
+         padding: 0 !important;
+      
+         }
+         #para{
+             margin-top: 7px;
+         }
+     
+     .btn-2{
+         border: none;
+         background-color: brown;
+         color: white;
+         font-weight: 500;   
+         font-size: 2vw;
+         height: 5vw;
+         margin-left: 80px;
+        
+         
+        
+        
+     }
+     
+     
+     #img-bullet{
+         
+         width: 1.5vw;
+         margin-top: -2px;
+         
+     }
+    
+    
+    /* .last-text{
+        
+       padding-top: 1vh;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2.7vw;
+        color: black;
+     
+        
+        }
+    
+    .btn-2{
+        border: none;
+        background-color: brown;
+        color: white;
+        font-weight: 500;   
+        font-size: 3vw;
+        height: 50px;
+        
+       
+       
+    }
+    
+    
+    #img-bullet{
+        
+        width: 8px;
+        
+    } */
+    
+    }
+    
+
+    @media screen and (min-width:768px) and (max-width:991px){
+
+        .banner0{
+            padding-bottom: 1vw;
+            width: 100%;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        
+        /* it is img  */
+        .form_bg{
+            padding: 0px !important;
+            width: 100%;
+            height: 98%;
+            margin-left: -15px;
+            
+        }
+        .pr-4 {
+            padding-right: 0 !important;
+        }
+        
+        /* img is full responsive */
+        
+        
+        
+        .btnn{
+            border: none;
+            margin-left: -12px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 3vw;
+            background-color: brown;
+            color: white;
+        }
+        
+        
+        
+        .text-1{
+            font-size: 1.7vw;
+            font-weight: bold;
+        }
+        
+        #question{
+            color: purple;
+            font-size: 2.3vw;
+            font-weight: bold;
+        }
+        /* first row is fully responsive */
+        
+        
+        
+        
+        #text-2{
+            
+            font-weight: 500;
+            font-size: 2vw;
+           
+            
+        }
+        
+        
+        #num{
+        
+            font-weight: bold;
+            font-size: 1.7vw;
+        }
+        
+        /* second row is fully resposive */
+        
+        
+        .formm{
+            display: block;
+            
+            
+            
+        }
+        .inpuut{
+            width: 15vw;
+            height: 5vh;
+        }
+        
+        .labal{
+            font-weight: 500;
+            font-size: 2vw
+        }
+        .labal-1{
+        font-weight: 600;
+        font-size: 1.8vw;
+        }
+        
+        
+        .confidential{
+            width: 100%;
+            margin-left: -30px;
+        }
+        
+        
+        .textarea{
+            margin-top: 1vw;
+            margin-left: 3vw; 
+            font-size: 2vw;
+            height: 5vw;
+            width: 600px;
+            background-color: white;
+            
+        }
+        
+        
+        
+        
+            .last-text {
+                padding-top: 1vh;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.44vw;
+               color: black;
+                font-weight: 549;
+              
+            }
+        
+        .btn-2{
+            border: none;
+            background-color: brown;
+            color: white;
+            font-weight: 500;   
+            font-size: 14px;
+            height: 35px;
+            width: 23vw;
+            margin-left: -8px;
+            
+           
+           
+        }
+        
+        
+        #img-bullet{
+            
+            width: 9px;
+            margin-top: -2px;
+            
+        }
+        
+        }
+    
+
+        @media screen and (min-width:992px) and (max-width:1200px){
+
+            .banner0{
+                padding-bottom: 1vw;
+                width: 100%;
+                padding-right: 0px;
+                    padding-left: 0px;
+            }
+            
+            /* it is img  */
+            .form_bg{
+                padding: 0px !important;
+                width: 100%;
+                height: 98%;
+                margin-left: -15px;
+                
+            }
+            .pr-4 {
+                padding-right: 0 !important;
+            }
+            
+            /* img is full responsive */
+            
+            
+            
+            .btnn{
+                border: none;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+                font-size: 3vw;
+                background-color: brown;
+                color: white;
+            }
+            
+            
+            
+            .text-1{
+                font-size: 2vw;
+                font-weight: bold;
+            }
+            
+            #question{
+                color: purple;
+                font-size: 2.7vw;
+                font-weight: bold;
+            }
+            /* first row is fully responsive */
+            
+            
+            
+            
+            #text-2{
+                
+                font-weight: 500;
+                font-size: 2.3vw;
+               
+                
+            }
+            
+            
+            #num{
+            
+                font-weight: bold;
+                font-size: 2vw;
+            }
+            
+            /* second row is fully resposive */
+            
+            
+            .formm{
+                display: block;
+                
+                
+                
+            }
+            .inpuut{
+                width: 15vw;
+                height: 5vh;
+            }
+            
+            .labal{
+                font-weight: 500;
+                font-size: 2vw
+            }
+            .labal-1{
+            font-weight: 600;
+            font-size: 1.7vw;
+            }
+            
+            
+            .confidential{
+                width: 100%;
+                margin-left: -30px;
+            }
+            
+            
+            .textarea{
+                margin-top: 1vw;
+                margin-left: 3vw; 
+                font-size: 2vw;
+                height: 5vw;
+                width: 600px;
+                background-color: white;
+                
+            }
+            
+            
+            
+            
+            .last-text{
+                
+               padding-top: 1vh;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1.5vw;
+                color: black;
+             
+                
+                }
+            
+            .btn-2{
+                border: none;
+                background-color: brown;
+                color: white;
+                font-weight: 500;   
+                font-size: 16px;
+                width: 20vw;
+                height: 40px;
+                margin-top: -3px;
+                
+               
+               
+            }
+            
+            
+            #img-bullet{
+                
+                width: 8px;
+                
+            }
+            
+            }
+
+            @media screen and (min-width:1200px) and (max-width:1400px){
+
+                
+                
+                
+                
+                .last-text{
+                    
+                   padding-top: 1vh;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-size: 1.5vw;
+                    color: black;
+                    padding-top: 25px;
+                   margin-top: 30px;
+                    padding: 0 !important;
+                    
+                    }
+                    #para{
+                        margin: 0 !important;
+                    }
+                
+                .btn-2{
+                    border: none;
+                    background-color: brown;
+                    color: white;
+                    font-weight: 500;   
+                    font-size: 20px;
+                    width: 20.5vw;
+                    height: 45px;
+                    margin-top: 20px;
+                  
+                    
+                   
+                   
+                }
+                
+                
+                #img-bullet{
+                    
+                    width: 8px;
+                    
+                }
+                
+                }
+        
+
+/* // 2 row is fully resposive  */
+.second-section{
+    border: 1px solid rgb(175, 166, 166);
+    border-top: none;
+    border-bottom: none;
+   
+}
+
+.second-section-2{
+
+    border: 1px solid rgb(175, 166, 166);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding-top: 10px;
+   ;
+}
+
+.btnnn{
+    background-color: rgb(124, 22, 22);
+    color: white;
+    border: none;
+    
+   width: 107px;
+   margin-left: -5px;
+    
+    
+}
+
+.bullet{
+    margin-top: -5px;
+}
+
+
+
+
+
+@media screen and (min-width:319px) and (max-width:575px){
+
+    .first-section{
+
+        padding-left: 30px;
+       
+    }
+    .second-section{
+        margin-top: 35px;
+        padding-left: 30px;
+       border: none;
+
+    }
+    .second-section-2{
+        border: none;
+    }
+
+    .laptop{
+        margin-left: -20px;
+    }
+    .order_icon{
+        margin-left: -8px;
+        margin-top: 25px;
+    }
+    
+
+    .third-section{
+
+        margin-top: 35px;
+       
+        padding-left: 30px;
+    }
+    
+
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+
+    .first-section{
+
+        
+        margin-left: 4vw;
+       
+       
+    }
+    .second-section{
+        margin-top: 50px;
+       border: none;
+        margin-left: 4vw;
+        margin-right: 3vw;
+      
+       
+
+    }
+    .second-section-2{
+        border: none;
+    }
+
+    
+    
+
+    .third-section{
+
+        margin-top: 50px;
+        margin-left: 4vw;
+       
+        
+    }
+    
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+    .laptop{
+    width: 125%;
+    margin-left: -20px;
+     
+  
+    margin-top: 30px;
+    }
+    .order_icon{
+        width: 110%;
+       height: 40%; 
+       
+        margin-top: 35px;
+    }
+    
+    .rating{
+width: 120%;
+    }
+.college{
+    width: 110%;
+}
+}
+
+
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    .laptop{
+    
+    margin-left: -20px;
+     
+  
+    margin-top: 30px;
+    }
+    .order_icon{
+        
+        
+       
+        margin-top: 35px;
+    }
+    
+    .rating{
+width: 105;
+    }
+
+}
+
+
+/* end of 3rd part  */
+
+
+ 
+
+
+.btn-Div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
+}
+.button-3{
+    margin-bottom: 25px;
+    background-color: rgb(141, 129, 129); 
+    border-left: 10px solid brown;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    color: white;
+}
+.buttonn1{
+    margin-left: -100px;
+}
+.buttonn2{
+
+    padding-left: 80px;
+    
+}
+
+.last-right{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.btnnnn{
+ background-color: rgb(124, 22, 22);
+color: white;
+border: none;
+
+width: 107px;
+
+
+}
+
+
+.menuarea-here{
+    color:  rgb(184, 130, 235);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.follow-us{
+    border-bottom: 2px solid black;
+}
+ 
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+    .btn-Div{
+       display: flex;
+       flex-direction: column;
+      
+      
+       background-color: black;
+        margin-top: 20px;
+        height: 0px;
+        padding: 0px;
+    }
+
+    .button-3{
+        margin-bottom: 25px;
+        background-color: rgb(141, 129, 129); 
+        border-left: 10px solid brown;
+        padding: 0px !important;
+        color: white;
+    }
+    .buttonn1{
+      
+       font-size: 15px;
+       margin-left: -55px;
+    }
+    .buttonn2{
+        font-size: 10px;
+       
+    }
+    .btntext{
+        font-size: 15px;
+    }
+    
+    
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    .btn-Div{
+       display: flex;
+       flex-direction: column;
+      
+      
+       background-color: black;
+        margin-top: 20px;
+        height: 0px;
+        padding: 0px;
+    }
+
+    .button-3{
+        
+        margin-bottom: 25px;
+        background-color: rgb(141, 129, 129); 
+        border-left: 10px solid brown;
+        color: white;
+        border-top: none;
+        border-bottom: none;
+        border-right: none;
+        padding: 0px !important;
+    }
+    .buttonn1{
+      
+       font-size: 20px;
+       margin-left: -55px;
+    }
+    .buttonn2{
+        font-size: 12px;
+       
+    }
+    .btntext{
+        font-size: 17px;
+    }
+    
+    
+    
+}
+
+.last-division {
+    border-bottom: 2vw solid rgb(194, 52, 52);
+    
+ 
+ }
+ .lll{
+    border-bottom: 2vw solid rgb(214, 195, 195);
+ }
+
+ 
+
+
+
+ @media screen and (min-width:320px) and (max-width:767px){
+
+    .title{
+        font-size: 5vw ;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: brown;
+    }
+ }
+
+ @media screen and (min-width:768px) and (max-width:991px){
+
+    .title{
+        font-size: 3vw ;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: brown;
+    }
+ }
+
+
+ @media screen and (min-width:992px) and (max-width:1200px){
+
+    .title{
+        font-size: 3vw ;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: brown;
+    }
+ }
+
+ .text-formating{
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+color: brown;
+ }
+
+
